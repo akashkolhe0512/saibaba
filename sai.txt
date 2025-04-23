@@ -7,3 +7,37 @@ git config --global user.email "nishikantyeole123@gmail.com"
 Verify Configuration
 git config --global --list
 
+
+● Tag the release as v1.0
+● Push the tag to GitHub
+● Create a release on GitHub from the tag
+
+create folder
+mkdir nishu
+open floder / cd nishu
+create file /echo "Hello v1.0" > index.html
+git init
+git add .
+git commit -m "Initial commit for v1.0"
+ STEP 4: GitHub pe ek naya repo bana
+STEP 5: GitHub repo ko link kar/git remote add origin https://github.com/tera-username/mera-project.git
+STEP 6: Code GitHub pe bhej (push kar)/ git push -u origin main
+ STEP 7: Tag bana v1.0 ke naam se // git tag -a v1.0 -m "Release version 1.0"
+STEP 8: Tag ko GitHub pe bhej// git push origin v1.0
+STEP 9: GitHub pe jaake release publish kar
+GitHub pe apne repo pe ja
+
+"Releases" tab pe click kar
+
+"Draft a new release"
+
+Tag: v1.0 choose kar
+
+Title: Version 1.0
+
+Description: "Mera pehla release"
+
+Click: Publish release
+
+
+
