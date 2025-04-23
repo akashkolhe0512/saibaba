@@ -1,0 +1,9 @@
+ Step 1: Git Installation
+sudo apt update
+sudo apt install git -y
+GitHub Authentication (Configure User)
+git config --global user.name "Nishuyeole12"
+git config --global user.email "nishikantyeole123@gmail.com"
+Verify Configuration
+git config --global --list
+
